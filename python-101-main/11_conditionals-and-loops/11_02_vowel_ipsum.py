@@ -18,4 +18,4 @@ for char in lorem_ipsum:
         count += 1
 
 print("Vowels:", vowel_only)
-print("Total number of vowels:", count)
+print("Total number of vowels: test 123", count)

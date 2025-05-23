@@ -12,12 +12,18 @@ import random
 
 num = random.randint(1, 10)
 guess = None
+attempts = 0
+max_attempts = 3
 
 while guess != num:
     guess = int(input("guess a number between 1 and 10: "))
 
     if guess == num:
-        print("congratulation!! you won!")
+        print("C5ongratulation!! You won!")
         break
     else:
-        print("nope, sorry. You have to try again!")
+        attempts += 1
+        print(f"Wrong guess. {max_attempts - attempts} tries left.")
+
+    if attempts == max_attempts: 
+        print("Sorry, you've used all your tries :'( ")

@@ -14,8 +14,7 @@ num = random.randint(1, 10)
 guess = None
 
 while guess != num:
-    guess = input("gues a number between 1 and 10: ")
-    guess = int(guess)
+    guess = int(input("guess a number between 1 and 10: "))
 
     if guess == num:
         print("congratulation!! you won!")

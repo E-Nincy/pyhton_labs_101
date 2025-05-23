@@ -27,3 +27,4 @@ while guess != num:
 
     if attempts == max_attempts: 
         print("Sorry, you've used all your tries :'( ")
+        break

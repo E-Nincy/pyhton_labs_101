@@ -19,7 +19,7 @@ while guess != num:
     guess = int(input("guess a number between 1 and 10: "))
 
     if guess == num:
-        print("C5ongratulation!! You won!")
+        print("Congratulation!! You won!")
         break
     else:
         attempts += 1

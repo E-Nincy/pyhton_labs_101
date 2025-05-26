@@ -4,3 +4,9 @@
 # String input: hello world
 # Letter input: o
 # Result: 4
+
+user_input = input("Write Hello World:")
+
+for index, char in enumerate(user_input):
+    if char == "o":
+        print(index)

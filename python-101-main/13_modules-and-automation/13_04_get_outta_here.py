@@ -3,3 +3,12 @@
 # for input in an infinite `while` loop.
 # If the user enters the word "quit", you can exit the program
 # using a functionality provided by this module.
+
+import sys
+
+name = True
+
+while True:
+    name = input("Please type your name: ")
+    if name == "quit":
+        sys.exit()
